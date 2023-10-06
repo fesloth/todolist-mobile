@@ -28,6 +28,12 @@
   margin-bottom: 20px;
 }
 
+.todo a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #002765;
+}
+
 .todo img {
   width: 40px;
   margin-left: 10px;
