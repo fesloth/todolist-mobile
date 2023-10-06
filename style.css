@@ -14,7 +14,7 @@
 
 .todo {
   width: 100%;
-  max-width: 500px;
+  max-width: 540px;
   background: #fff;
   padding: 40px 30px 70px;
   margin: 50px auto 20px;
@@ -46,7 +46,7 @@
   justify-content: space-around;
   background: #edeef0;
   border-radius: 30px;
-  padding-left: 20px;
+  padding-left: 30px;
   margin-bottom: 25px;
 }
 
@@ -116,3 +116,23 @@ ul li span {
 ul li span:hover {
   background: #edeef0;
 }
+
+@media screen and (max-width: 768px) {
+  .row {
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+  }
+}
+
+
